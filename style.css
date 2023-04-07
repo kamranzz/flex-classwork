@@ -1,0 +1,121 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 70%;
+  height: 80vh;
+  border: 3px solid blue;
+  border-radius: 5px;
+  background-color: rgb(255, 247, 230);
+}
+
+h1 {
+  text-align: center;
+  color: green;
+  font-weight: 500;
+  font-size: 45px;
+}
+.icons {
+  margin-top: 30px;
+  width: 100%;
+  height: 40px;
+  justify-content: space-around;
+  text-align: center;
+}
+.icons .fa-instagram {
+  color: rgb(133, 66, 18);
+  font-size: 30px;
+}
+.icons .fa-facebook-f {
+  color: rgb(133, 66, 18);
+  margin-left: 40px;
+  font-size: 30px;
+}
+.icons .fa-twitter {
+  color: rgb(133, 66, 18);
+  margin-left: 40px;
+  font-size: 30px;
+}
+
+.boxes {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: flex;
+  width: 65%;
+  height: 60%;
+  justify-content: space-evenly;
+}
+
+.box-1 {
+  color: white;
+  text-align: center;
+  width: 25%;
+  height: 42%;
+  background-color: rgb(132, 64, 15);
+  flex-wrap: wrap;
+}
+.box-2 {
+  text-align: center;
+  width: 25%;
+  height: 42%;
+  background-color: rgb(143, 115, 255);
+  flex-wrap: wrap;
+}
+.box-3 {
+  text-align: center;
+  width: 25%;
+  height: 42%;
+  background-color: rgb(143, 115, 255);
+  flex-wrap: wrap;
+}
+.box-4 {
+  text-align: center;
+  width: 25%;
+  height: 42%;
+  background-color: rgb(83, 193, 114);
+  flex-wrap: wrap;
+}
+.box-5 {
+  text-align: center;
+  width: 25%;
+  height: 42%;
+  background-color: rgb(83, 193, 114);
+  flex-wrap: wrap;
+}
+.box-6 {
+  color: white;
+  text-align: center;
+  width: 25%;
+  height: 42%;
+  background-color: rgb(132, 64, 15);
+  flex-wrap: wrap;
+}
+
+h2 {
+    margin-top: 10px;
+  font-weight: 500;
+}
+
+.boxes[class|="box"]{
+text-align: center;
+justify-content: center;
+}
+
+p{
+    margin-top: 10px;
+}
